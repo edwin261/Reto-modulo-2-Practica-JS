@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Title</title>
+        <link rel="stylesheet" href="css/styles.css" />
+        <script src="js/Helpers/TaskHelper.js"></script>
+        <script src="js/model/TaskModel.js"></script>
+        <script src="js/Task.js"></script>
+    </head>
+    <body>
+        <h1 style="padding-left: 45%">Tareas</h1>
+        
+        <p><strong>Filtrar:</strong> 
+            <select name="TaskCompletedFilter" onchange="FilterTaskRecords()" id="TaskCompletedFilter">
+              <option value="" selected>Mostrar todas</option>
+              <option value="true">Completada</option>
+              <option value="false">Pendientes</option>
+            </select>
+        </p>
+        
+        <table id="TaskRecords">
+            <thead>
+                <tr class="header">
+                    <th style="width:30%;">Nombre</th>
+                    <th style="width:30%;">Completada</th>
+                    <th style="width:20%;">Acciones</th>
+                </tr>
+            </thead>
+            <tbody id="TaskRecordsBodyTable">
+                <tr>
+                    <td><input type="text" value="" id="TaskName" style="width: 100%;" /></td>
+                    <td>
+                        <input type="checkbox" id="TaskCompleted" name="TaskCompleted" />
+                    </td>
+                    <td><button onclick="CreateNewTask()">Guardar</button></td>
+                </tr>
+            </tbody>
+          
+        </table>
+    </body>
+</html>

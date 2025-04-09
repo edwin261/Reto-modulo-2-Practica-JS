@@ -1,2 +1,2 @@
-# Reto-modulo-2-Practica-JS
-Contains the code about javascript application "Reto modulo 2 – Practica JS"
+Puede visualizar la documentación del sitio ingresando al siguiente enlace: 
+https://docs.google.com/document/d/13mm30b7tc2qcVO5ic6u-dNfVBpgOs_ei/edit?usp=sharing&ouid=113927441108259782399&rtpof=true&sd=true

@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+#TaskRecords {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#TaskRecords th, #TaskRecords td {
+  text-align: left;
+  padding: 12px;
+}
+
+#TaskRecords tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#TaskRecords tr.header, #TaskRecords tr:hover {
+  background-color: #f1f1f1;
+}
